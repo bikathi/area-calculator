@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.route-link {
+		@apply border rounded-md p-2 text-center transition-transform hover:scale-105 duration-200 ease-in-out w-64 hover:font-semibold;
+	}
+
+	.home-navigation {
+		@apply inline-flex items-center space-x-2 p-2 rounded-full border-[1px] shadow-sm transition-shadow hover:shadow-md duration-150;
+	}
+
+	.input-field {
+		@apply border-[1px] h-10 p-2 rounded outline-none focus:outline-none  transition-all focus:scale-y-105 duration-150 ease-linear w-full  border-gray-300 focus:ring focus:ring-gray-500 text-gray-600;
+	}
+
+	.submit-button {
+		@apply w-3/4 p-2 border-[1px] outline-none text-center hover:bg-gray-200 duration-200 ease-in-out rounded-md transition-colors text-gray-600 font-semibold;
+	}
+}

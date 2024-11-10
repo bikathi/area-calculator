@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="stylesheet"
+			href="output.css" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Tauri Area Calculator</title>
+		<script
+			type="module"
+			src="/src/main.ts"
+			defer></script>
+	</head>
+
+	<body>
+		<main class="h-screen">
+			<div
+				class="flex items-center justify-center flex-col h-full rounded-md">
+				<h1 class="text-center text-2xl font-semibold">
+					Area Calculator
+				</h1>
+				<h2>What area do you want to calculate?</h2>
+				<a
+					href="./square.html"
+					class="route-link mb-2 inline-flex justify-center space-x-2 items-center"
+					><span>Square</span><span>&RightArrow;</span></a
+				><a
+					href="./rectangle.html"
+					class="route-link mb-2 inline-flex justify-center space-x-2 items-center"
+					><span>Rectangle</span><span>&RightArrow;</span></a
+				>
+				<a
+					href="./circle.html"
+					class="route-link mb-2 inline-flex justify-center space-x-2 items-center"
+					><span>Circle</span><span>&RightArrow;</span></a
+				>
+			</div>
+		</main>
+	</body>
+</html>
